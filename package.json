@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-redefined",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyoMoses1/Portfolio-Redefined.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyoMoses1/Portfolio-Redefined/issues"
+  },
+  "homepage": "https://github.com/AyoMoses1/Portfolio-Redefined#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
+}
