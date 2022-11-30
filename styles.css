@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+div.logo h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+}
+
+div.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div.hamburger span {
+  height: 2px;
+  background: #6070ff;
+  width: 16px;
+  display: inline-block;
+  margin: 2px 0;
+}
+
+#headline {
+  padding: 114px 24px;
+  background: url("images/Header\ bg@2x.png") no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+#headline h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+#headline p {
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+#headline h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #7f8cff;
+}
+
+div.socials img {
+  display: inline-block;
+  margin-right: 20px;
+}
