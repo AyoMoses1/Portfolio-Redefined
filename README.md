@@ -151,7 +151,7 @@ Example:
 
 - GitHub: [@AyoMoses1](https://github.com/AyoMoses1)
 - Twitter: [@Ayo_Moses1](https://twitter.com/Ayo_Moses1)
-- LinkedIn: [ayo-moses-493946184](https://www.linkedin.com/in/ayo-moses-493946184/)
+- LinkedIn: [Ayo Moses](https://www.linkedin.com/in/ayo-moses-493946184/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -160,10 +160,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **Responsive Application**
+- **Email Integration**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
