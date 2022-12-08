@@ -68,6 +68,14 @@ div.works_details p {
   color: #344563;
 }
 
+div.about_caption h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-transform: uppercase;
+}
+
 #headline h1 {
   font-weight: 700;
   font-size: 40px;
@@ -236,14 +244,6 @@ ul.skills_dropdown h5 {
   font-weight: 500;
   font-size: 15px;
   color: #253858;
-}
-
-div.about_caption h4{
-  font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #7F8CFF;
-text-transform: uppercase;
 }
 
 div.separator {
