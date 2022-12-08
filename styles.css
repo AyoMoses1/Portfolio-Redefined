@@ -43,6 +43,12 @@ nav span {
   margin: 2px 0;
 }
 
+div.skills_header h4 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+
 #headline {
   padding: 114px 24px;
   background: url("images/header-shapes\ mobile.png");
@@ -125,6 +131,15 @@ ul.works_header li {
   font-size: 13px;
 }
 
+ul.skills_dropdown li {
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 9px 12px;
+  align-items: center;
+}
+
 ul.works_header li:first-child {
   text-transform: uppercase;
   font-weight: 600;
@@ -149,7 +164,7 @@ li.works_card {
   align-items: center;
 }
 
-div.works_details h2 {
+div.works_details h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -161,7 +176,8 @@ ul.works_stack {
   margin-bottom: 12px;
 }
 
-button.works_btn {
+button.works_btn,
+.about_btn {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -175,4 +191,54 @@ button.works_btn {
   letter-spacing: 0.03em;
   color: #396df2;
   margin: 24px 0 28px;
+}
+
+button.works_btn:hover,
+button.about_btn:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px;
+}
+
+div.about_caption h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+div.skills_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.about_skills {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+ul.skills_dropdown {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.skills_dropdown h5 {
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #253858;
+}
+
+div.separator {
+  background: #dfe1e6;
+  height: 1px;
 }
