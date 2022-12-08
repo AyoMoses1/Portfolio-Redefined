@@ -44,11 +44,10 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 <details>
   <summary>Frontend</summary>
   <ul>
-    <li>Html and CSS<</li>
+    <li>Html and CSS</li>
   </ul>
 </details>
 

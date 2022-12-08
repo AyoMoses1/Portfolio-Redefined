@@ -238,6 +238,14 @@ ul.skills_dropdown h5 {
   color: #253858;
 }
 
+div.about_caption h4{
+  font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+text-transform: uppercase;
+}
+
 div.separator {
   background: #dfe1e6;
   height: 1px;
