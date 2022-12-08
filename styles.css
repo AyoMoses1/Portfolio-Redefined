@@ -55,6 +55,13 @@ nav span {
   justify-content: center;
 }
 
+div.works_details p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
 #headline h1 {
   font-weight: 700;
   font-size: 40px;
@@ -82,4 +89,90 @@ ul.socials {
   padding-left: 0;
   justify-content: space-between;
   max-width: 170px;
+}
+
+ul.works_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 114px 24px;
+  grid-row-gap: 88px;
+  list-style-type: none;
+}
+
+ul.works_grid ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.works_header {
+  display: flex;
+  padding-left: 0;
+  align-items: center;
+}
+
+ul.works_stack li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+ul.works_header li {
+  text-transform: capitalize;
+  font-size: 13px;
+}
+
+ul.works_header li:first-child {
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 16px;
+  color: #344563;
+}
+
+ul.works_header span {
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
+  margin: 0 12px;
+  border-radius: 50%;
+}
+
+li.works_card {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  align-items: center;
+}
+
+div.works_details h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+ul.works_stack {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+button.works_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  margin: 24px 0 28px;
 }
