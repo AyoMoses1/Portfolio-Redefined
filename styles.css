@@ -9,6 +9,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 16px;
+  background: #F7F7F9;
 }
 
 header {
@@ -16,6 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  background: #fff;
 }
 
 div.logo a {
@@ -59,6 +61,9 @@ div.skills_header h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #fff;
+  border-bottom-left-radius: 100px;
+  
 }
 
 div.works_details p {
@@ -132,6 +137,11 @@ ul.works_stack li {
   background: #ebebff;
   border-radius: 8px;
   margin-right: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070FF;
 }
 
 ul.works_header li {
@@ -170,6 +180,7 @@ li.works_card {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   align-items: center;
+  background: #fff;
 }
 
 div.works_details h3 {
@@ -212,6 +223,9 @@ button.about_btn:hover {
   display: flex;
   flex-direction: column;
   padding: 114px 24px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-top-right-radius: 100px;
 }
 
 div.about_caption h2 {
