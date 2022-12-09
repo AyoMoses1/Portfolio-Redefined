@@ -9,6 +9,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 16px;
+  background: #f7f7f9;
 }
 
 header {
@@ -16,6 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  background: #fff;
 }
 
 div.logo a {
@@ -43,6 +45,12 @@ nav span {
   margin: 2px 0;
 }
 
+div.skills_header h4 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+
 #headline {
   padding: 114px 24px;
   background: url("images/header-shapes\ mobile.png");
@@ -53,6 +61,23 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #fff;
+  border-bottom-left-radius: 100px;
+}
+
+div.works_details p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+div.about_caption h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-transform: uppercase;
 }
 
 #headline h1 {
@@ -82,4 +107,159 @@ ul.socials {
   padding-left: 0;
   justify-content: space-between;
   max-width: 170px;
+}
+
+ul.works_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 114px 24px;
+  grid-row-gap: 88px;
+  list-style-type: none;
+}
+
+ul.works_grid ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.works_header {
+  display: flex;
+  padding-left: 0;
+  align-items: center;
+}
+
+ul.works_stack li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-right: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+ul.works_header li {
+  text-transform: capitalize;
+  font-size: 13px;
+}
+
+ul.skills_dropdown li {
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 9px 12px;
+  align-items: center;
+}
+
+ul.works_header li:first-child {
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 16px;
+  color: #344563;
+}
+
+ul.works_header span {
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
+  margin: 0 12px;
+  border-radius: 50%;
+}
+
+li.works_card {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  align-items: center;
+  background: #fff;
+}
+
+div.works_details h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+ul.works_stack {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+button.works_btn,
+.about_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  margin: 24px 0 28px;
+}
+
+button.works_btn:hover,
+button.about_btn:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-top-right-radius: 100px;
+}
+
+div.about_caption h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+div.skills_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.about_skills {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+ul.skills_dropdown {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.skills_dropdown h5 {
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #253858;
+}
+
+div.separator {
+  background: #dfe1e6;
+  height: 1px;
 }
