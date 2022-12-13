@@ -263,3 +263,27 @@ div.separator {
   background: #dfe1e6;
   height: 1px;
 }
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  padding: 103px 24px 8px;
+  align-items: center;
+}
+
+#footer h2{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+#footer p {
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
