@@ -43,7 +43,36 @@ nav ul.hamburger {
   padding: 0;
 }
 
-nav ul.hamburger li{
+ul.works_stack li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-right: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+ul.works_header li {
+  text-transform: capitalize;
+  font-size: 13px;
+}
+
+ul.skills_dropdown li {
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 9px 12px;
+  align-items: center;
+}
+
+nav ul.hamburger li {
   padding: 0;
   margin: 0;
   height: 10px;
@@ -140,35 +169,6 @@ ul.works_header {
   align-items: center;
 }
 
-ul.works_stack li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  background: #ebebff;
-  border-radius: 8px;
-  margin-right: 8px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-}
-
-ul.works_header li {
-  text-transform: capitalize;
-  font-size: 13px;
-}
-
-ul.skills_dropdown li {
-  display: flex;
-  background: #f7f7f9;
-  border-radius: 8px;
-  margin-bottom: 12px;
-  padding: 9px 12px;
-  align-items: center;
-}
-
 ul.works_header li:first-child {
   text-transform: uppercase;
   font-weight: 600;
@@ -239,7 +239,7 @@ button.about_btn:hover {
   border-top-right-radius: 100px;
 }
 
-#about .about_container{
+#about .about_container {
   display: flex;
   flex-direction: column;
 }
@@ -376,8 +376,7 @@ textarea {
 
 /* Media Queries */
 @media only screen and (min-width: 768px) {
-  
-  header{
+  header {
     padding: 16px 143px;
   }
 
@@ -390,8 +389,8 @@ textarea {
     padding-left: 0;
     list-style-type: none;
   }
-  
-  ul.nav_bar li{
+
+  ul.nav_bar li {
     padding: 0 12px;
   }
 
@@ -403,47 +402,61 @@ textarea {
     color: #344563;
   }
 
-  #headline{
+  #headline {
     background: url('/images/Header\ bg.svg'), #fff;
     padding: 289px 260px;
+
     /* height: 846px; */
     background-size: 100vw 100vh;
-    background-position:  center;
+    background-position: center;
     border-bottom-left-radius: 200px;
     background-repeat: no-repeat;
   }
 
-  ul.works_grid{
+  ul.works_grid {
     padding: 142px;
   }
-  ul.works_grid .works_card{
+
+  ul.works_grid .works_card {
     flex-direction: row;
   }
-  ul.works_grid .works_card img.tonics{
+
+  ul.works_grid .works_card img.tonics {
     content: url(images/portoflio/tonics.png);
   }
-  ul.works_grid .works_card img.tonic{
+
+  ul.works_grid .works_card img.tonic {
     content: url(images/portoflio/tonic.png);
   }
-  ul.works_grid .works_card img.posts{
+
+  ul.works_grid .works_card img.posts {
     content: url(images/portoflio/posts.png);
   }
-  ul.works_grid .works_card img.post{
+
+  ul.works_grid .works_card img.post {
     content: url(images/portoflio/post.png);
   }
-  .desktop{
+
+  .desktop {
     /* content: url('/images/Headebg.png'); */
-  } 
+  }
 
   ul.works_grid .works_card > div {
     flex: 1;
   }
 
-  ul.works_grid li:nth-child(even){
+  ul.skills_dropdown li {
+    flex-direction: column;
+    padding: 12px;
+    align-items: flex-start;
+    flex: 1;
+  }
+
+  ul.works_grid li:nth-child(even) {
     flex-direction: row-reverse;
   }
 
-  #about .about_container{
+  #about .about_container {
     display: flex;
     flex-direction: row;
     padding-left: 142px;
@@ -451,30 +464,25 @@ textarea {
     gap: 25px;
   }
 
-  .about_caption{
+  .about_caption {
     flex: 2;
   }
 
-  #about .about_container ul{
+  #about .about_container ul {
     flex: 3;
   }
 
-  ul.skills_dropdown{
+  ul.skills_dropdown {
     display: flex;
     gap: 12px;
     max-width: 414px;
   }
-  ul.skills_dropdown li{
-    flex-direction: column;
-    padding: 12px;
-    align-items: flex-start;
-    flex: 1;
-  }
-  ul.skills_dropdown li h5{
+
+  ul.skills_dropdown li h5 {
     margin-left: 0;
   }
 
-  div.divider{
+  div.divider {
     display: none;
   }
 
@@ -486,18 +494,18 @@ textarea {
     padding: 142px 320px;
   }
 
-  input,textarea {
-    border-radius: 0px;
+  input,
+  textarea {
+    border-radius: 0;
   }
-  
-  #footer form{
+
+  #footer form {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
   }
 
-  #footer .form_button{
+  #footer .form_button {
     max-width: 142px;
   }
-
 }
