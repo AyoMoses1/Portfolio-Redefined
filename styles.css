@@ -437,10 +437,6 @@ textarea {
     content: url(images/portoflio/post.png);
   }
 
-  .desktop {
-    /* content: url('/images/Headebg.png'); */
-  }
-
   ul.works_grid .works_card > div {
     flex: 1;
   }
