@@ -404,8 +404,6 @@ textarea {
   #headline {
     background: url('/images/Header\ bg.svg'), #fff;
     padding: 289px 260px;
-
-    /* height: 846px; */
     background-size: 100vw 100vh;
     background-position: center;
     border-bottom-left-radius: 200px;
