@@ -97,7 +97,7 @@ div.skills_header h4 {
   padding: 114px 24px;
   background: url("images/header-shapes\ mobile.png");
   height: 100%;
-  background-size: cover auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
@@ -191,8 +191,19 @@ li.works_card {
   padding: 16px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  align-items: center;
+
+  /* align-items: center; */
   background: #fff;
+}
+
+li.works_card img {
+  width: 100%;
+}
+
+div.works_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 div.works_details h3 {
@@ -375,7 +386,7 @@ textarea {
 }
 
 /* Media Queries */
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   header {
     padding: 16px 143px;
   }
@@ -404,39 +415,50 @@ textarea {
 
   #headline {
     background: url('/images/Header\ bg.svg'), #fff;
-    padding: 289px 260px;
+
+    /* padding: 289px 260px; */
+    padding: 10rem 5rem;
     background-size: 100vw 100vh;
     background-position: center;
     border-bottom-left-radius: 200px;
     background-repeat: no-repeat;
   }
 
+  div.works_details p {
+    font-size: 16px;
+  }
+
+  #headline h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  #headline p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
   ul.works_grid {
-    padding: 142px;
+    padding: 5rem;
   }
 
   ul.works_grid .works_card {
     flex-direction: row;
-  }
-
-  ul.works_grid .works_card img.tonics {
-    content: url(images/portoflio/tonics.png);
-  }
-
-  ul.works_grid .works_card img.tonic {
-    content: url(images/portoflio/tonic.png);
-  }
-
-  ul.works_grid .works_card img.posts {
-    content: url(images/portoflio/posts.png);
-  }
-
-  ul.works_grid .works_card img.post {
-    content: url(images/portoflio/post.png);
+    justify-content: space-between;
+    gap: 2rem;
   }
 
   ul.works_grid .works_card > div {
     flex: 1;
+  }
+
+  div.works_details h3 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  ul.works_header li {
+    font-size: 18px;
   }
 
   ul.skills_dropdown li {
@@ -453,8 +475,8 @@ textarea {
   #about .about_container {
     display: flex;
     flex-direction: row;
-    padding-left: 142px;
-    padding-right: 142px;
+    padding-left: 5rem;
+    padding-right: 5rem;
     gap: 25px;
   }
 
@@ -463,7 +485,7 @@ textarea {
   }
 
   #about .about_container ul {
-    flex: 3;
+    flex: 2.5;
   }
 
   ul.skills_dropdown {
@@ -476,6 +498,11 @@ textarea {
     margin-left: 0;
   }
 
+  ul.skills_dropdown li img {
+    width: 48px;
+    height: 48px;
+  }
+
   div.divider {
     display: none;
   }
@@ -485,7 +512,9 @@ textarea {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 142px 320px;
+
+    /* padding: 142px 320px; */
+    padding: 8.875rem 25%;
   }
 
   input,
