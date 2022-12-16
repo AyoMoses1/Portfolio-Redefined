@@ -3,6 +3,7 @@
 html,
 body {
   height: 100%;
+  margin: 0;
 }
 
 * {
@@ -34,13 +35,51 @@ div.logo a {
   text-decoration: none;
 }
 
-nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+ul.nav_bar {
+  display: none;
 }
 
-nav span {
+nav ul.hamburger {
+  list-style: none;
+  padding: 0;
+}
+
+ul.works_stack li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-right: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+ul.works_header li {
+  text-transform: capitalize;
+  font-size: 13px;
+}
+
+ul.skills_dropdown li {
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 9px 12px;
+  align-items: center;
+}
+
+nav ul.hamburger li {
+  padding: 0;
+  margin: 0;
+  height: 10px;
+}
+
+ul.hamburger span {
   height: 2px;
   background: #6070ff;
   width: 16px;
@@ -58,7 +97,7 @@ div.skills_header h4 {
   padding: 114px 24px;
   background: url("images/header-shapes\ mobile.png");
   height: 100%;
-  background-size: cover auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
@@ -131,35 +170,6 @@ ul.works_header {
   align-items: center;
 }
 
-ul.works_stack li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  background: #ebebff;
-  border-radius: 8px;
-  margin-right: 8px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-}
-
-ul.works_header li {
-  text-transform: capitalize;
-  font-size: 13px;
-}
-
-ul.skills_dropdown li {
-  display: flex;
-  background: #f7f7f9;
-  border-radius: 8px;
-  margin-bottom: 12px;
-  padding: 9px 12px;
-  align-items: center;
-}
-
 ul.works_header li:first-child {
   text-transform: uppercase;
   font-weight: 600;
@@ -181,8 +191,19 @@ li.works_card {
   padding: 16px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  align-items: center;
+
+  /* align-items: center; */
   background: #fff;
+}
+
+li.works_card img {
+  width: 100%;
+}
+
+div.works_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 div.works_details h3 {
@@ -230,6 +251,11 @@ button.about_btn:hover {
   border-top-right-radius: 100px;
 }
 
+#about .about_container {
+  display: flex;
+  flex-direction: column;
+}
+
 div.about_caption h2 {
   font-weight: 700;
   font-size: 40px;
@@ -270,8 +296,6 @@ div.separator {
 #footer {
   display: flex;
   flex-direction: column;
-
-  /* padding: 103px 24px 8px; */
   align-items: center;
   background: #6070ff;
   border-top-left-radius: 100px;
@@ -359,4 +383,158 @@ textarea {
   height: 5px;
   background: #0d151e;
   border-radius: 10px;
+}
+
+.about_btn:hover {
+  border-radius: 10px 20px 10px 20px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  header {
+    padding: 16px 143px;
+  }
+
+  div.hamburger {
+    display: none;
+  }
+
+  ul.nav_bar {
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  ul.nav_bar li {
+    padding: 0 12px;
+  }
+
+  ul.nav_bar .nav_links {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  #headline {
+    background: url('/images/Header\ bg.svg'), #fff;
+    padding: 10rem 5rem;
+    background-size: 100vw 100vh;
+    background-position: center;
+    border-bottom-left-radius: 200px;
+    background-repeat: no-repeat;
+  }
+
+  div.works_details p {
+    font-size: 16px;
+  }
+
+  #headline h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  #headline p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  ul.works_grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul.works_grid > li {
+    width: 80%;
+  }
+
+  ul.works_grid .works_card {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  ul.works_grid .works_card > div {
+    flex: 1;
+  }
+
+  div.works_details h3 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  ul.works_header li {
+    font-size: 18px;
+  }
+
+  ul.skills_dropdown li {
+    flex-direction: column;
+    padding: 12px;
+    align-items: flex-start;
+    flex: 1;
+  }
+
+  ul.works_grid li:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  #about .about_container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    gap: 25px;
+  }
+
+  .about_caption {
+    flex: 2;
+  }
+
+  #about .about_container ul {
+    flex: 2.5;
+  }
+
+  ul.skills_dropdown {
+    display: flex;
+    gap: 12px;
+    max-width: 414px;
+  }
+
+  ul.skills_dropdown li h5 {
+    margin-left: 0;
+  }
+
+  ul.skills_dropdown li img {
+    width: 48px;
+    height: 48px;
+  }
+
+  div.divider {
+    display: none;
+  }
+
+  #footer_form {
+    background-image: url('images/contact\ form\ background\ shapes@2x.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8.875rem 25%;
+  }
+
+  input,
+  textarea {
+    border-radius: 0;
+  }
+
+  #footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer .form_button {
+    max-width: 142px;
+  }
 }
