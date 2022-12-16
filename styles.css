@@ -419,8 +419,6 @@ textarea {
 
   #headline {
     background: url('/images/Header\ bg.svg'), #fff;
-
-    /* padding: 289px 260px; */
     padding: 10rem 5rem;
     background-size: 100vw 100vh;
     background-position: center;
@@ -443,7 +441,13 @@ textarea {
   }
 
   ul.works_grid {
-    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul.works_grid > li {
+    width: 80%;
   }
 
   ul.works_grid .works_card {
@@ -516,8 +520,6 @@ textarea {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
-    /* padding: 142px 320px; */
     padding: 8.875rem 25%;
   }
 
