@@ -389,7 +389,6 @@ textarea {
   border-radius: 10px 20px 10px 20px;
 }
 
-/* Media Queries */
 @media (min-width: 768px) {
   header {
     padding: 16px 143px;
@@ -419,8 +418,6 @@ textarea {
 
   #headline {
     background: url('/images/Header\ bg.svg'), #fff;
-
-    /* padding: 289px 260px; */
     padding: 10rem 5rem;
     background-size: 100vw 100vh;
     background-position: center;
@@ -516,8 +513,6 @@ textarea {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
-    /* padding: 142px 320px; */
     padding: 8.875rem 25%;
   }
 
