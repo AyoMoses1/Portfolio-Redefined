@@ -10,12 +10,3 @@ hamburgerOpen.addEventListener('click', function(){
 hamburgerClose.addEventListener('click', function(){
   hamburger.classList.toggle('active')
 })
-
-const hamburgerLinks = document.getElementsByClassName('ham_link')
-
-hamburgerLinks.addEventListener("click", function(){
-
-  console.log("This is it")
-  hamburger.style.display = "hidden"
-})
-
