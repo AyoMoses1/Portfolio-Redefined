@@ -10,3 +10,11 @@ hamburgerOpen.addEventListener('click', function(){
 hamburgerClose.addEventListener('click', function(){
   hamburger.classList.toggle('active')
 })
+
+const hamburgerLinks = document.querySelectorAll('.ham_link')
+
+hamburgerLinks.forEach(link => {
+  link.addEventListener('click', function(){
+    hamburger.classList.remove("active")
+  })
+})
