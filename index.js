@@ -115,7 +115,7 @@ viewBtn.forEach(btn => {
                           </div>
                           <div class="works_details modal_flex">
                             <div>
-                              <p>${projectArray[i].description}</p>
+                              <p>${projectArray[i].description.slice(0, 200)}</p>
                             </div>
                             <div>
                               <ul class="works_stack">
