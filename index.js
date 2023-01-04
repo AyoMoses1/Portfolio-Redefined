@@ -125,8 +125,8 @@ viewBtn.forEach(btn => {
                               </ul>
                               <div class="modal_divider"></div>
                               <div class="btn-flex">
-                                  <button class="works_btn">See Live <img src="images/Icon - Export.svg"/> </button>
-                                  <button class="works_btn">See Source <img src="images/github in button.svg"/> </button>
+                                <a href=${projectArray[i].sourceLink} class="live_link"><button class="works_btn">See Live <img src="images/Icon - Export.svg"/> </button><a/>
+                                <a href=${projectArray[i].sourceLink} class="source_link"><button class="works_btn">See Source <img src="images/github in button.svg"/> </button><a/>
                               </div>
                             </div>
                           </div>` 

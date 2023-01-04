@@ -520,6 +520,10 @@ textarea {
   margin-right: 12px;
 }
 
+.live_link, .source_link {
+  text-decoration: none !important;
+}
+
 @media (min-width: 768px) {
 
   div.modal{
@@ -540,9 +544,7 @@ textarea {
     width: 60%;
   }
 
-  div.modal_flex div:last-child{
-    
-  }
+ 
 
   header {
     padding: 16px 143px;
