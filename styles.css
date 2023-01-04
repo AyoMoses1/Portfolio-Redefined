@@ -538,7 +538,7 @@ textarea {
 
 @media (min-width: 768px) {
   div.modal {
-    width: 80%;
+    width: 65%;
     height: 90vh;
   }
 
