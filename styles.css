@@ -44,6 +44,10 @@ nav ul.hamburger {
   padding: 0;
 }
 
+.modal_header li {
+  font-size: 13px;
+}
+
 ul.works_stack li {
   display: flex;
   flex-direction: row;
@@ -77,6 +81,22 @@ nav ul.hamburger li {
   padding: 0;
   margin: 0;
   height: 10px;
+}
+
+.modal_header span {
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
+  margin: 0 12px;
+  border-radius: 50%;
+}
+
+ul.works_header span {
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
+  margin: 0 12px;
+  border-radius: 50%;
 }
 
 ul.hamburger span {
@@ -129,6 +149,10 @@ div.about_caption h4 {
   color: #172b4d;
 }
 
+div.modal p {
+  font-size: 12px;
+}
+
 #headline p {
   font-weight: 400;
   line-height: 24px;
@@ -164,7 +188,8 @@ ul.works_grid ul {
   padding-left: 0;
 }
 
-ul.works_header, div.modal_header ul {
+ul.works_header,
+div.modal_header ul {
   display: flex;
   padding-left: 0;
   align-items: center;
@@ -177,22 +202,16 @@ ul.works_header, div.modal_header ul {
   padding: 16px 0;
 }
 
-ul.works_header li:first-child, .modal_header ul li:first-child {
+ul.works_header li:first-child,
+.modal_header ul li:first-child {
   text-transform: uppercase;
   font-weight: 600;
   line-height: 16px;
   color: #344563;
 }
 
-ul.works_header span, .modal_header span {
-  width: 8px;
-  height: 8px;
-  background: #c1c7d0;
-  margin: 0 12px;
-  border-radius: 50%;
-}
-
-li.works_card, div.modal {
+li.works_card,
+div.modal {
   display: flex;
   flex-direction: column;
   padding: 16px;
@@ -201,17 +220,18 @@ li.works_card, div.modal {
   background: #fff;
 }
 
-.modal_header li {
-  font-size: 13px;
-}
-
-div.modal_divider{
+div.modal_divider {
   width: 100%;
   height: 1px;
-  background: #EBECF0;
+  background: #ebecf0;
 }
 
-div.modal ul.works_stack{
+ul.works_stack {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+div.modal ul.works_stack {
   padding-left: 0;
 }
 
@@ -232,7 +252,7 @@ div.modal h3 {
   transition: opacity 200ms;
 }
 
-div.modal{
+div.modal {
   position: fixed;
   top: 0;
   right: 0;
@@ -250,18 +270,18 @@ div.modal_image {
   height: 30%;
 }
 
-div.modal_image img{
+div.modal_image img {
   width: 100%;
   height: 100%;
-}
-
-div.modal p {
-  font-size: 12px;
 }
 
 div.modal button {
   display: flex;
   font-size: 15px;
+}
+
+li.works_card img {
+  width: 100%;
 }
 
 div.modal button img {
@@ -287,11 +307,6 @@ div.show {
 img.modal_close {
   height: 24px;
   width: 24px;
-
-}
-
-li.works_card img {
-  width: 100%;
 }
 
 div.works_image {
@@ -300,16 +315,12 @@ div.works_image {
   justify-content: center;
 }
 
-div.works_details h3, div.modal_header h3 {
+div.works_details h3,
+div.modal_header h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-}
-
-ul.works_stack {
-  display: flex;
-  margin-bottom: 12px;
 }
 
 button.works_btn,
@@ -520,31 +531,29 @@ textarea {
   margin-right: 12px;
 }
 
-.live_link, .source_link {
+.live_link,
+.source_link {
   text-decoration: none !important;
 }
 
 @media (min-width: 768px) {
-
-  div.modal{
+  div.modal {
     width: 80%;
     height: 90vh;
   }
 
-  div.modal_image{
+  div.modal_image {
     height: 50%;
   }
 
-  div.modal_flex{
+  div.modal_flex {
     display: flex;
     justify-content: space-between;
   }
 
-  div.modal_flex div:first-child{
+  div.modal_flex div:first-child {
     width: 60%;
   }
-
- 
 
   header {
     padding: 16px 143px;
