@@ -5,8 +5,8 @@ const projectArray = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     featuredImage: "images/portoflio/post.png",
     technologies: ["ruby", "python", "node"],
-    liveLink: "https://www.facebook.com",
-    sourceLink:"https://www.google.com"
+    liveLink: "https://ayomoses1.github.io/Portfolio-Redefined/",
+    sourceLink:"https://github.com/AyoMoses1/Portfolio-Redefined"
   },
   {
     id: 2, 
@@ -14,8 +14,8 @@ const projectArray = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     featuredImage: "images/portoflio/post.png",
     technologies: ["css", "html", "php"],
-    liveLink: "https://www.facebook.com",
-    sourceLink:"https://www.google.com"
+    liveLink: "https://ayomoses1.github.io/Portfolio-Redefined/",
+    sourceLink:"https://github.com/AyoMoses1/Portfolio-Redefined"
   },
   {
     id: 3, 
@@ -23,8 +23,8 @@ const projectArray = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     featuredImage: "images/portoflio/tonics.png",
     technologies: ["flutter", "ruby", "rails"],
-    liveLink: "https://www.facebook.com",
-    sourceLink:"https://www.google.com"
+    liveLink: "https://ayomoses1.github.io/Portfolio-Redefined/",
+    sourceLink:"https://github.com/AyoMoses1/Portfolio-Redefined"
   },
   {
     id: 4, 
@@ -32,8 +32,8 @@ const projectArray = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     featuredImage: "images/portoflio/tonic.png",
     technologies: ["typescript", "react", "node"],
-    liveLink: "https://www.facebook.com",
-    sourceLink:"https://www.google.com"
+    liveLink: "https://ayomoses1.github.io/Portfolio-Redefined/",
+    sourceLink:"https://github.com/AyoMoses1/Portfolio-Redefined"
   },
 ]
 
