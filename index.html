@@ -190,9 +190,10 @@
          <h2>Contact me</h2>
          <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
          <form action="https://formspree.io/f/mpzeaaag" method="post" class="contact_form">
-            <input class="form_item" type="text" name="name" placeholder="Yeremias" maxlength="30" required>
-            <input class="form_item" type="email" name="email" placeholder="natajayanj14@gmail.com" required>
+            <input class="form_item" id="name" type="text" name="name" placeholder="Yeremias" maxlength="30" required>
+            <input class="form_item" id="email" type="email" name="email" placeholder="natajayanj14@gmail.com" required>
             <textarea class="form_item" name="" id="textarea" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required></textarea>
+            <div id="error-message"></div>
             <button type="submit" class="form_button" >Get It Touch</button>
          </form>
          </section>
@@ -200,5 +201,6 @@
    </footer>
    <div class="modal"></div>
    <script src="index.js"></script>
+   <script src="form-validate.js"></script>
 </body>
 </html>
