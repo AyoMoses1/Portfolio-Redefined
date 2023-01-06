@@ -1,5 +1,5 @@
-const contactForm = document.querySelector('#footer_form');
-contactForm.addEventListener('submit', (e) => {
+const ContactForm = document.querySelector('#footer_form');
+ContactForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const obj = {
     fullName: document.querySelector('#name').value,
