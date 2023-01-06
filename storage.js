@@ -2,7 +2,6 @@ const ContactForm = document.querySelector('#footer_form');
 
 
 ContactForm.addEventListener('input', (e) => {
-  console.log("Change handler")
   e.preventDefault();
   const obj = {
     fullName: document.querySelector('#name').value,
