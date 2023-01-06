@@ -17,6 +17,6 @@ window.addEventListener('load', () => {
   if (localStorage.getItem('formEntry')) {
     document.querySelector('#name').value = getValue.fullName;
     document.querySelector('#email').value = getValue.emailAdress;
-    document.querySelector('#message').value = getValue.message;
+    document.querySelector('#textarea').value = getValue.message;
   }
 });
