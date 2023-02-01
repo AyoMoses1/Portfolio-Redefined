@@ -57,7 +57,7 @@
 
 - **Social Media Integration**
 - **Email Integration**
-- **Formspree Integration**
+- **Formspree Integration(For Forms)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
